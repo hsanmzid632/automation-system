@@ -1,0 +1,11 @@
+<!ELEMENT plugin (#PCDATA|extension)*>
+<!ELEMENT extension (view*,perspective?)>
+<!ATTLIST extension point NMTOKEN #REQUIRED>
+<!ELEMENT view (#PCDATA)>
+<!ATTLIST view class NMTOKEN #REQUIRED>
+<!ATTLIST view id NMTOKEN #REQUIRED>
+<!ATTLIST view name CDATA #REQUIRED>
+<!ELEMENT perspective (#PCDATA)>
+<!ATTLIST perspective id NMTOKEN #REQUIRED>
+<!ATTLIST perspective name CDATA #REQUIRED>
+<!ATTLIST perspective class NMTOKEN #REQUIRED>

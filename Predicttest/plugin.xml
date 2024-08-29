@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+
+    <extension
+          point="org.eclipse.ui.views">
+       <view
+             class="predicttest.parts.VideoUploadView"
+             id="predicttest.parts.VideoUploadView"
+             name="Video Upload">
+       </view>
+       
+    </extension>
+    <requires>
+    <import plugin="org.json.simple"/>
+  </requires>
+</plugin>
+
